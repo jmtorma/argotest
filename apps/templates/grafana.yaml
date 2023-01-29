@@ -14,7 +14,6 @@ spec:
     chart: grafana
     repoURL: https://grafana.github.io/helm-charts
     targetRevision: 6.50.5
-    path: apps/templates
   syncPolicy:
     automated:
       prune: true
